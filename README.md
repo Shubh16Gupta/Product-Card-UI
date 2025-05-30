@@ -7,13 +7,18 @@ When the user clicks Buy Now, they are redirected to the main product website to
 <br><br>
 🔍 Features
 <br><br>
-⚫️Clean and modern product card layout
+⚫️Clean and modern product card layout\
+<br>
 ⚫️Price with discount display
+<br>
 ⚫️Product image and description
+<br>
 ⚫️Functional Buy Now button with external link redirection
+<br>
 ⚫️Fully responsive design
 <br><br>
 🛠️ Technologies Used
 <br><br>
 ⚫️HTML5
+<br>
 ⚫️CSS
