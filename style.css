@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+    
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    overflow: hidden;
+    max-width: 750px;
+    width: 90%;
+    background-color: white;
+}
+.img{
+    height: auto;
+    width: 50%;
+    object-fit: cover;
+}
+.content{
+    padding: 24px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.category{
+    font-size: 13px;
+    color: #888;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.desc{
+   font-size: 14px;
+   color: #555;
+   margin-bottom: 20px; 
+   line-height: 1.5;
+
+}
+.price{
+    display: flex;
+    align-items: baseline;
+    font-size: 22px;
+    font-weight: bold;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.current-price{
+     color: #1a5632;
+     font-size: 28px;
+     margin: 10px;
+}
+.old-price{
+    color: #aaa;
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+.buy-btn{
+    background-color: #1a5632;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: grab;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3 ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.buy-btn i {
+    margin-right: 8px;
+}
+.buy-btn:hover{
+    background-color: #144728;
+}
